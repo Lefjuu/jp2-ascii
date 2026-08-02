@@ -1,0 +1,34 @@
+{
+  "name": "jpii",
+  "version": "1.0.0",
+  "description": "Jan Paweł II in your console, as ASCII",
+  "main": "index.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "ascii.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm --prefix .gen install --no-fund --no-audit && node .gen/generate.mjs",
+    "generate": "npm run build",
+    "example": "npm --prefix example install --no-fund --no-audit && npm --prefix example start",
+    "example:esm": "npm --prefix example install --no-fund --no-audit && npm --prefix example run start:esm",
+    "start": "npm run example",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "jpii",
+    "ascii",
+    "jan-pawel-ii"
+  ],
+  "license": "MIT"
+}

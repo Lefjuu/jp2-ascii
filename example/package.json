@@ -1,0 +1,13 @@
+{
+  "name": "jpii-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Consumer demo for jpii",
+  "scripts": {
+    "start": "node index.js",
+    "start:esm": "node index.mjs"
+  },
+  "dependencies": {
+    "jpii": "file:.."
+  }
+}

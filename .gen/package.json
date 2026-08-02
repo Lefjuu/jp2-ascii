@@ -1,0 +1,9 @@
+{
+  "name": "jpii-gen",
+  "private": true,
+  "type": "module",
+  "description": "Local ASCII generator tooling (not published)",
+  "dependencies": {
+    "jimp": "^0.22.12"
+  }
+}
