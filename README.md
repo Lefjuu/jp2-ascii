@@ -52,7 +52,7 @@ npm start
 
 ## Regenerate
 
-Source image + generator live in `.gen/` (not published). Rebuild:
+ASCII is rebuilt locally from a private `.gen/` folder (not in git / not on npm):
 
 ```bash
 npm run build

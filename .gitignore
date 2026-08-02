@@ -1,6 +1,4 @@
 node_modules/
 *.tgz
-.gen/node_modules/
-.gen/package-lock.json
-.gen/processed.png
+.gen/
 media/preview.html
