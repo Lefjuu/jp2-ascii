@@ -1,2 +1,2 @@
-const jpii = require('jpii')
+const jpii = require('jp2-ascii')
 jpii()

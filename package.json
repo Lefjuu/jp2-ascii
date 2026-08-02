@@ -1,5 +1,5 @@
 {
-  "name": "jpii",
+  "name": "jp2-ascii",
   "version": "1.0.0",
   "description": "Jan Paweł II in your console, as ASCII",
   "main": "index.js",
@@ -26,9 +26,18 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
+    "jp2-ascii",
     "jpii",
     "ascii",
     "jan-pawel-ii"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lefjuu/jpii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lefjuu/jpii/issues"
+  },
+  "homepage": "https://github.com/Lefjuu/jpii#readme"
 }

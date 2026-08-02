@@ -1,26 +1,26 @@
-# jpii
+# jp2-ascii
 
 Jan Paweł II in your terminal — as colored ASCII.
 
 Zero dependencies. Call it and he appears.
 
-![jpii in the terminal](media/preview.png)
+![jp2-ascii in the terminal](media/preview.png)
 
 ## Install
 
 ```bash
-npm install jpii
+npm install jp2-ascii
 ```
 
 ## Usage
 
 ```js
-const jpii = require('jpii')
+const jpii = require('jp2-ascii')
 jpii()
 ```
 
 ```js
-import jpii from 'jpii'
+import jpii from 'jp2-ascii'
 jpii()
 ```
 
@@ -29,13 +29,13 @@ Needs a terminal with 24-bit color support.
 The ANSI string is also available without printing:
 
 ```js
-jpii.ascii          // CommonJS
-import { ascii } from 'jpii'  // ESM
+jpii.ascii                 // CommonJS
+import { ascii } from 'jp2-ascii'  // ESM
 ```
 
 ## Try locally
 
-`example/` is a tiny consumer app with `jpii` installed via `file:..` (no `.gen` involved):
+`example/` is a tiny consumer app with `jp2-ascii` installed via `file:..` (no `.gen` involved):
 
 ```bash
 npm run example      # CommonJS

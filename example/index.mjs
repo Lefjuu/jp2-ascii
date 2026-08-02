@@ -1,3 +1,3 @@
-import jpii from 'jpii'
+import jpii from 'jp2-ascii'
 
 jpii()
