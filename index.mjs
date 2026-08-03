@@ -8,5 +8,7 @@ function jpii () {
   return ascii
 }
 
+jpii.ascii = ascii
+
 export { ascii, jpii }
 export default jpii

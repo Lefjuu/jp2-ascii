@@ -24,6 +24,16 @@ import jpii from 'jp2-ascii'
 jpii()
 ```
 
+TypeScript works out of the box:
+
+```ts
+import jpii, { ascii } from 'jp2-ascii'
+
+jpii()
+jpii.ascii
+ascii
+```
+
 Needs a terminal with 24-bit color support.
 
 The ANSI string is also available without printing:
@@ -32,7 +42,6 @@ The ANSI string is also available without printing:
 jpii.ascii                 // CommonJS
 import { ascii } from 'jp2-ascii'  // ESM
 ```
-
 ## Try locally
 
 `example/` is a tiny consumer app with `jp2-ascii` installed via `file:..` (no `.gen` involved):

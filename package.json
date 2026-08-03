@@ -1,11 +1,13 @@
 {
   "name": "jp2-ascii",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jan Paweł II in your console, as ASCII",
   "main": "index.js",
   "module": "index.mjs",
+  "types": "index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js"
     }
@@ -13,6 +15,7 @@
   "files": [
     "index.js",
     "index.mjs",
+    "index.d.ts",
     "ascii.js",
     "LICENSE",
     "README.md"
@@ -29,7 +32,8 @@
     "jp2-ascii",
     "jpii",
     "ascii",
-    "jan-pawel-ii"
+    "jan-pawel-ii",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
