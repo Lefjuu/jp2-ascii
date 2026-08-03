@@ -38,10 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lefjuu/jpii.git"
+    "url": "git+https://github.com/Lefjuu/jp2-ascii.git"
   },
   "bugs": {
-    "url": "https://github.com/Lefjuu/jpii/issues"
+    "url": "https://github.com/Lefjuu/jp2-ascii/issues"
   },
-  "homepage": "https://github.com/Lefjuu/jpii#readme"
+  "homepage": "https://github.com/Lefjuu/jp2-ascii#readme"
 }
